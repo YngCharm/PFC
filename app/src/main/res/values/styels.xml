@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight">
+        <!-- Другие атрибуты темы -->
+        <item name="android:windowBackground">@color/dark_background</item> <!-- темный фон -->
+        <item name="android:textColor">@color/dark_text_color</item> <!-- темный цвет текста -->
+    </style>
+    <style name="RoundedTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="boxBackgroundColor">@color/black</item> <!-- Цвет фона -->
+        <item name="boxCornerRadiusTopStart">10dp</item> <!-- Радиус скругления углов -->
+        <item name="boxCornerRadiusTopEnd">10dp</item>
+    </style>
+</resources>
